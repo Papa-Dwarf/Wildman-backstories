@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <Defs>
 
     <!--__________ Backstories __________-->
-	
-	<!--_____ Template _____-->
+
+    <!--_____ Template _____-->
 
     <!--_____ Papa_Dwarf _____-->
 
@@ -17,13 +16,15 @@
         <slot>Childhood</slot>
         <title>Raised by Muffalo</title>
         <titleShort>ByMuffalo</titleShort>
-        <description> Not being wanted by the wild parents you abandoned and found by a herd of Muffalo and seemingly acted more animal like because of this.</description>
+        <description>Not being wanted by the wild parents you abandoned and found by a herd of Muffalo and seemingly acted more animal like because of this.</description>
         <skillGains>
             <Social>3</Social>
             <Plants>1</Plants>
-			<Animals>2</Animals>
+            <Animals>2</Animals>
         </skillGains>
-		<forcedTraits>AnimalLover</forcedTraits>
+        <forcedTraits>
+            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">1</VTE_AnimalLover>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -32,8 +33,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryForager</defName>
         <identifier>PapasBackstoryForager</identifier>
         <slot>Childhood</slot>
@@ -43,7 +44,7 @@
         <skillGains>
             <Plants>3</Plants>
             <Medicine>2</Medicine>
-			<Cooking>1</Cooking>
+            <Cooking>1</Cooking>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -53,8 +54,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstorySurvivor</defName>
         <identifier>PapasBackstorySurvivor</identifier>
         <slot>Childhood</slot>
@@ -73,8 +74,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryRockTosser</defName>
         <identifier>PapasBackstoryRockTosser</identifier>
         <slot>Childhood</slot>
@@ -93,8 +94,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryFireLover</defName>
         <identifier>PapasBackstoryFireLover</identifier>
         <slot>Childhood</slot>
@@ -113,8 +114,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryCaveBorn</defName>
         <identifier>PapasBackstoryCaveBorn</identifier>
         <slot>Childhood</slot>
@@ -124,7 +125,7 @@
         <skillGains>
             <Mining>3</Mining>
             <Crafting>2</Crafting>
-			<Artistic>1</Artistic>
+            <Artistic>1</Artistic>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -134,8 +135,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryWildlingParents</defName>
         <identifier>PapasBackstoryWildlingParents</identifier>
         <slot>Childhood</slot>
@@ -154,8 +155,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryCavePainter</defName>
         <identifier>PapasBackstoryCavePainter</identifier>
         <slot>Childhood</slot>
@@ -174,8 +175,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryWanderer</defName>
         <identifier>PapasBackstoryWanderer</identifier>
         <slot>Childhood</slot>
@@ -194,8 +195,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryJungleChild</defName>
         <identifier>PapasBackstoryJungleChild</identifier>
         <slot>Childhood</slot>
@@ -205,7 +206,7 @@
         <skillGains>
             <Medicine>2</Medicine>
             <Intellectual>2</Intellectual>
-			<Crafting>1</Crafting>
+            <Crafting>1</Crafting>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -215,8 +216,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryNomad</defName>
         <identifier>PapasBackstoryNomad</identifier>
         <slot>Adulthood</slot>
@@ -226,7 +227,7 @@
         <skillGains>
             <Medicine>5</Medicine>
             <Shooting>3</Shooting>
-			<Animals>3</Animals>
+            <Animals>3</Animals>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -249,7 +250,7 @@
         <skillGains>
             <Medicine>5</Medicine>
             <Shooting>3</Shooting>
-			<Animals>3</Animals>
+            <Animals>3</Animals>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -271,7 +272,7 @@
         <skillGains>
             <Medicine>5</Medicine>
             <Shooting>3</Shooting>
-			<Animals>3</Animals>
+            <Animals>3</Animals>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -282,8 +283,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryBasher</defName>
         <identifier>PapasBackstoryBasher</identifier>
         <slot>Adulthood</slot>
@@ -301,61 +302,12 @@
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
-        <possessions><ThingDef ParentName="BaseMeleeWeapon_Blunt">
-    <defName>ClubForBasher</defName>
-    <label>club</label>
-    <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
-    <weaponTags>
-      <li>NeolithicMeleeBasic</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Neolithic</li>
-    </weaponClasses>
-    <costStuffCount>40</costStuffCount>
-    <statBases>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>2</Mass>
-    </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
-    <stuffCategories>
-      <li>Woody</li>
-    </stuffCategories>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-      <displayPriority>300</displayPriority>
-    </recipeMaker>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>head</label>
-        <labelUsedInLogging>false</labelUsedInLogging>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+        <possessions>
+            <MeleeWeapon_Club>1</MeleeWeapon_Club>
         </possessions>
     </BackstoryDef>
 
-    	<BackstoryDef>
+    <BackstoryDef>
         <defName>PapasBackstoryBasherA</defName>
         <identifier>PapasBackstoryBasherA</identifier>
         <slot>Adulthood</slot>
@@ -372,57 +324,8 @@
             <li>Tribal</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
-        <possessions><ThingDef ParentName="BaseMeleeWeapon_Blunt">
-    <defName>ClubForBasherA</defName>
-    <label>club</label>
-    <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
-    <weaponTags>
-      <li>NeolithicMeleeBasic</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Neolithic</li>
-    </weaponClasses>
-    <costStuffCount>40</costStuffCount>
-    <statBases>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>2</Mass>
-    </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
-    <stuffCategories>
-      <li>Woody</li>
-    </stuffCategories>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-      <displayPriority>300</displayPriority>
-    </recipeMaker>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>head</label>
-        <labelUsedInLogging>false</labelUsedInLogging>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+        <possessions>
+            <MeleeWeapon_Club>1</MeleeWeapon_Club>
         </possessions>
     </BackstoryDef>
 
@@ -443,62 +346,13 @@
             <li>Tribal</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
-        <possessions><ThingDef ParentName="BaseMeleeWeapon_Blunt">
-    <defName>ClubForBasherB</defName>
-    <label>club</label>
-    <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <uiIconScale>1.1</uiIconScale>
-    <techLevel>Neolithic</techLevel>
-    <weaponTags>
-      <li>NeolithicMeleeBasic</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Neolithic</li>
-    </weaponClasses>
-    <costStuffCount>40</costStuffCount>
-    <statBases>
-      <WorkToMake>1200</WorkToMake>
-      <Mass>2</Mass>
-    </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
-    <stuffCategories>
-      <li>Woody</li>
-    </stuffCategories>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-      <displayPriority>300</displayPriority>
-    </recipeMaker>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>head</label>
-        <labelUsedInLogging>false</labelUsedInLogging>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+        <possessions>
+            <MeleeWeapon_Club>1</MeleeWeapon_Club>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
-        B
+
+    <BackstoryDef>
+        <defName>PapasBackstorySlinger</defName>
         <identifier>PapasBackstorySlinger</identifier>
         <slot>Adulthood</slot>
         <title>Slinger</title>
@@ -515,70 +369,10 @@
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
-        <possessions><ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>VWE_Sling</defName>
-    <label>sling</label>
-    <description>A small pouch in the middle of two lengths of cord. Used to slingshot sharp rocks over medium distance.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Sling</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>Bow_Small</soundInteract>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
-    <statBases>
-      <WorkToMake>1000</WorkToMake>
-      <Mass>0.2</Mass>
-      <AccuracyTouch>0.75</AccuracyTouch>
-      <AccuracyShort>0.48</AccuracyShort>
-      <AccuracyMedium>0.45</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>NeolithicRangedBasic</li>
-    </weaponTags>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-    </recipeMaker>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VWE_SlingRock</defaultProjectile>
-        <warmupTime>1.35</warmupTime>
-        <range>18.9</range>
-        <soundCast>Bow_Small</soundCast>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>sling</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>4</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-  <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>VWE_SlingRock</defName>
-    <label>sling rock</label>
-    <graphicData>
-      <texPath>Things/Projectile/SlingRockThrown</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Blunt</damageDef>
-      <damageAmountBase>8</damageAmountBase>
-      <speed>44</speed>
-    </projectile>
-  </ThingDef>
-		</possessions>
+        <possessions>
+            <VWE_Sling>1</VWE_Sling>
+            <VWE_SlingRock>10</VWE_SlingRock>
+        </possessions>
     </BackstoryDef>
 
     <BackstoryDef>
@@ -598,73 +392,13 @@
             <li>Tribal</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
-        <possessions><ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>VWE_SlingA</defName>
-    <label>sling</label>
-    <description>A small pouch in the middle of two lengths of cord. Used to slingshot sharp rocks over medium distance.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Sling</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>Bow_Small</soundInteract>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
-    <statBases>
-      <WorkToMake>1000</WorkToMake>
-      <Mass>0.2</Mass>
-      <AccuracyTouch>0.75</AccuracyTouch>
-      <AccuracyShort>0.48</AccuracyShort>
-      <AccuracyMedium>0.45</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>NeolithicRangedBasic</li>
-    </weaponTags>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-    </recipeMaker>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VWE_SlingRock</defaultProjectile>
-        <warmupTime>1.35</warmupTime>
-        <range>18.9</range>
-        <soundCast>Bow_Small</soundCast>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>sling</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>4</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-  <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>VWE_SlingRock</defName>
-    <label>sling rock</label>
-    <graphicData>
-      <texPath>Things/Projectile/SlingRockThrown</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Blunt</damageDef>
-      <damageAmountBase>8</damageAmountBase>
-      <speed>44</speed>
-    </projectile>
-  </ThingDef>
-		</possessions>
+        <possessions>
+            <VWE_Sling>1</VWE_Sling>
+            <VWE_SlingRock>10</VWE_SlingRock>
+        </possessions>
     </BackstoryDef>
 
-        <BackstoryDef>
+    <BackstoryDef>
         <defName>PapasBackstorySlingerB</defName>
         <identifier>PapasBackstorySlingerB</identifier>
         <slot>Adulthood</slot>
@@ -681,73 +415,13 @@
             <li>Tribal</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
-        <possessions><ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>VWE_SlingB</defName>
-    <label>sling</label>
-    <description>A small pouch in the middle of two lengths of cord. Used to slingshot sharp rocks over medium distance.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Sling</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>Bow_Small</soundInteract>
-    <costList>
-      <WoodLog>10</WoodLog>
-    </costList>
-    <statBases>
-      <WorkToMake>1000</WorkToMake>
-      <Mass>0.2</Mass>
-      <AccuracyTouch>0.75</AccuracyTouch>
-      <AccuracyShort>0.48</AccuracyShort>
-      <AccuracyMedium>0.45</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>NeolithicRangedBasic</li>
-    </weaponTags>
-    <recipeMaker>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-    </recipeMaker>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VWE_SlingRock</defaultProjectile>
-        <warmupTime>1.35</warmupTime>
-        <range>18.9</range>
-        <soundCast>Bow_Small</soundCast>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>sling</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>4</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-  <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>VWE_SlingRock</defName>
-    <label>sling rock</label>
-    <graphicData>
-      <texPath>Things/Projectile/SlingRockThrown</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Blunt</damageDef>
-      <damageAmountBase>8</damageAmountBase>
-      <speed>44</speed>
-    </projectile>
-  </ThingDef>
-		</possessions>
+        <possessions>
+            <VWE_Sling>1</VWE_Sling>
+            <VWE_SlingRock>10</VWE_SlingRock>
+        </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryFireTender</defName>
         <identifier>PapasBackstoryFireTender</identifier>
         <slot>Adulthood</slot>
@@ -810,8 +484,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryCaveDweller</defName>
         <identifier>PapasBackstoryCaveDweller</identifier>
         <slot>Adulthood</slot>
@@ -821,7 +495,7 @@
         <skillGains>
             <Mining>6</Mining>
             <Artistic>4</Artistic>
-			<Crafting>3</Crafting>
+            <Crafting>3</Crafting>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -844,7 +518,7 @@
         <skillGains>
             <Mining>6</Mining>
             <Artistic>4</Artistic>
-			<Crafting>3</Crafting>
+            <Crafting>3</Crafting>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -866,7 +540,7 @@
         <skillGains>
             <Mining>6</Mining>
             <Artistic>4</Artistic>
-			<Crafting>3</Crafting>
+            <Crafting>3</Crafting>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -877,8 +551,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstorySeeker</defName>
         <identifier>PapasBackstorySeeker</identifier>
         <slot>Adulthood</slot>
@@ -888,7 +562,7 @@
         <skillGains>
             <Social>3</Social>
             <Intellectual>6</Intellectual>
-			<Construction>3</Construction>
+            <Construction>3</Construction>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -911,7 +585,7 @@
         <skillGains>
             <Social>3</Social>
             <Intellectual>6</Intellectual>
-			<Construction>3</Construction>
+            <Construction>3</Construction>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -933,7 +607,7 @@
         <skillGains>
             <Social>3</Social>
             <Intellectual>6</Intellectual>
-			<Construction>3</Construction>
+            <Construction>3</Construction>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -944,8 +618,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryOneWithNature</defName>
         <identifier>PapasBackstoryOneWithNature</identifier>
         <slot>Adulthood</slot>
@@ -955,9 +629,11 @@
         <skillGains>
             <Plants>7</Plants>
             <Medicine>4</Medicine>
-			<Construction>2</Construction>
+            <Construction>2</Construction>
         </skillGains>
-		<forcedTraits>Psychicallyhypersensitive</forcedTraits>
+        <forcedTraits>
+            <PsychicSensitivity>2</PsychicSensitivity>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -979,9 +655,11 @@
         <skillGains>
             <Plants>7</Plants>
             <Medicine>4</Medicine>
-			<Construction>2</Construction>
+            <Construction>2</Construction>
         </skillGains>
-		<forcedTraits>Psychicallyhypersensitive</forcedTraits>
+        <forcedTraits>
+            <PsychicSensitivity>2</PsychicSensitivity>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -992,7 +670,7 @@
         </possessions>
     </BackstoryDef>
 
-        <BackstoryDef>
+    <BackstoryDef>
         <defName>PapasBackstoryOneWithNatureB</defName>
         <identifier>PapasBackstoryOneWithNatureB</identifier>
         <slot>Adulthood</slot>
@@ -1002,9 +680,11 @@
         <skillGains>
             <Plants>7</Plants>
             <Medicine>4</Medicine>
-			<Construction>2</Construction>
+            <Construction>2</Construction>
         </skillGains>
-		<forcedTraits>Psychicallyhypersensitive</forcedTraits>
+        <forcedTraits>
+            <PsychicSensitivity>2</PsychicSensitivity>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -1014,8 +694,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryAnimalLife</defName>
         <identifier>PapasBackstoryAnimalLife</identifier>
         <slot>Adulthood</slot>
@@ -1026,7 +706,9 @@
             <Animals>7</Animals>
             <Social>5</Social>
         </skillGains>
-		<forcedTraits>AnimalLover</forcedTraits>
+        <forcedTraits>
+            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">1</VTE_AnimalLover>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -1049,7 +731,9 @@
             <Animals>7</Animals>
             <Social>5</Social>
         </skillGains>
-		<forcedTraits>AnimalLover</forcedTraits>
+        <forcedTraits>
+            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">1</VTE_AnimalLover>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -1059,8 +743,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryAnimalLifeB</defName>
         <identifier>PapasBackstoryAnimalLifeB</identifier>
         <slot>Adulthood</slot>
@@ -1071,7 +755,9 @@
             <Animals>7</Animals>
             <Social>5</Social>
         </skillGains>
-		<forcedTraits>AnimalLover</forcedTraits>
+        <forcedTraits>
+            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">1</VTE_AnimalLover>
+        </forcedTraits>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
@@ -1082,7 +768,7 @@
         </possessions>
     </BackstoryDef>
 
-	<BackstoryDef>
+    <BackstoryDef>
         <defName>PapasBackstoryEffigyMaker</defName>
         <identifier>PapasBackstoryEffigyMaker</identifier>
         <slot>Adulthood</slot>
@@ -1145,8 +831,8 @@
         <possessions>
         </possessions>
     </BackstoryDef>
-	
-	<BackstoryDef>
+
+    <BackstoryDef>
         <defName>PapasBackstoryEscaped</defName>
         <identifier>PapasBackstoryEscaped</identifier>
         <slot>Adulthood</slot>
@@ -1156,7 +842,7 @@
         <skillGains>
             <Melee>4</Melee>
             <Intellectual>3</Intellectual>
-			<Construction>5<.Construction>
+            <Construction>5</Construction>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -1179,7 +865,7 @@
         <skillGains>
             <Melee>4</Melee>
             <Intellectual>3</Intellectual>
-			<Construction>5<.Construction>
+            <Construction>5</Construction>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -1201,7 +887,7 @@
         <skillGains>
             <Melee>4</Melee>
             <Intellectual>3</Intellectual>
-			<Construction>5<.Construction>
+            <Construction>5</Construction>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>

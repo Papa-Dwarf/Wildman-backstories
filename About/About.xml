@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+    <name>Wildman backstories</name>
+    <author>PapaDwarf</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>PapaDwarf.Wildmanbackstories</packageId>
+    <description>Wildman backstories</description>
+    <modDependencies>
+        <li>
+            <packageId>oskarpotocki.vfe.tribals</packageId>
+            <displayName>VFE Tribals</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3079786283</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaFactionsExpanded-Tribals</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>oskarpotocki.vfe.tribals</li>
+        <li>vanillaexpanded.vwetb</li>
+    </loadAfter>
+</ModMetaData>
