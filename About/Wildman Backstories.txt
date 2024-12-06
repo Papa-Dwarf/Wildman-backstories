@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Defs>
+
+    <!--__________ Backstories __________-->
+	
+	<!--_____ Template _____-->
+
+    <!--_____ Papa_Dwarf _____-->
+
+    <!--Template-->
+
+    <BackstoryDef>
+        <defName>PapasBackstoryRaisedByMuffalo</defName>
+        <identifier>PapasBackstoryRaisedByMuffalo</identifier>
+        <slot>Childhood</slot>
+        <title>Raised by Muffalo</title>
+        <titleShort>ByMuffalo</titleShort>
+        <description> Not being wanted by the wild parents you abandoned and found by a herd of Muffalo and seemingly acted more animal like because of this.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Plants>1</Plants>
+			<Animals>2</Animals>
+        </skillGains>
+		<forcedTraits>AnimalLover</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryForager</defName>
+        <identifier>PapasBackstoryForager</identifier>
+        <slot>Childhood</slot>
+        <title>Forager</title>
+        <titleShort>Forager</titleShort>
+        <description>Having to pick berries and corpses to scrape by for food, you managed to survive.</description>
+        <skillGains>
+            <Plants>3</Plants>
+            <Medicine>2</Medicine>
+			<Cooking>1</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstorySurvivor</defName>
+        <identifier>PapasBackstorySurvivor</identifier>
+        <slot>Childhood</slot>
+        <title>Survivor</title>
+        <titleShort>Survivor</titleShort>
+        <description>Being a child in the Rimworld is no easy feat, you had to fight your way into adulthood.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryRockTosser</defName>
+        <identifier>PapasBackstoryRockTosser</identifier>
+        <slot>Childhood</slot>
+        <titleShort>Rock Tosser </titleShort>
+        <title>Rock Tosser</title>
+        <description>Not overly-reliant on strength, but speed and accuracy, with a single well thrown rock you can hit a rabbit with ease</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryFireLover</defName>
+        <identifier>PapasBackstoryFireLover</identifier>
+        <slot>Childhood</slot>
+        <title>Fire Lover</title>
+        <titleShort>Fire Lover</titleShort>
+        <description>Finding the flame lead to a near worship of it and how to make more of it</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Construction>3</Construction>
+        </skillGains>
+        <workDisables>Firefighting</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryCaveBorn</defName>
+        <identifier>PapasBackstoryCaveBorn</identifier>
+        <slot>Childhood</slot>
+        <title>Cave Born</title>
+        <titleShort>Cave Born</titleShort>
+        <description>Born inside a dark cave, you spent most of your days playing with the rocks and stones, making trinkets, or drawing on the walls</description>
+        <skillGains>
+            <Mining>3</Mining>
+            <Crafting>2</Crafting>
+			<Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryWildlingParents</defName>
+        <identifier>PapasBackstoryWildlingParents</identifier>
+        <slot>Childhood</slot>
+        <title>Wildling Parents</title>
+        <titleShort>Wild Parents</titleShort>
+        <description>Seemingly by luck or sheer will, your parents taught you all they could before being taken by the Rim</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryCavePainter</defName>
+        <identifier>PapasBackstoryCavePainter</identifier>
+        <slot>Childhood</slot>
+        <title>Cave Painter</title>
+        <titleShort>Cave Painter</titleShort>
+        <description>Getting to draw shapes and faces with clay and stones gave you endless amusment, perhaps what you made will last forever.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Mining>2</Mining>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryWanderer</defName>
+        <identifier>PapasBackstoryWanderer</identifier>
+        <slot>Childhood</slot>
+        <title>Wanderer</title>
+        <titleShort>Wanderer</titleShort>
+        <description>Never finding a home you roamed and explored the lands until you could find something that you could make your own</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryJungleChild</defName>
+        <identifier>PapasBackstoryJungleChild</identifier>
+        <slot>Childhood</slot>
+        <title>Jungle Child</title>
+        <titleShort>Jungle Child</titleShort>
+        <description>Born in the thick trees and shrubs gave you many lessons on survival and how not to die</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>2</Intellectual>
+			<Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryNomad</defName>
+        <identifier>PapasBackstoryNomad</identifier>
+        <slot>Adulthood</slot>
+        <title>Nomad</title>
+        <titleShort>Nomad</titleShort>
+        <description>Wandering around the Rim has given you many survival skills, but you've always kept moving until you one day can find somewhere you can call your own.</description>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Shooting>3</Shooting>
+			<Animals>3</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryNomadA</defName>
+        <identifier>PapasBackstoryNomadA</identifier>
+        <slot>Adulthood</slot>
+        <title>Nomad</title>
+        <titleShort>Nomad</titleShort>
+        <description>Wandering around the Rim has given you many survival skills, but you've always kept moving until you one day can find somewhere you can call your own.</description>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Shooting>3</Shooting>
+			<Animals>3</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryNomadB</defName>
+        <identifier>PapasBackstoryNomadB</identifier>
+        <slot>Adulthood</slot>
+        <title>Nomad</title>
+        <titleShort>Nomad</titleShort>
+        <description>Wandering around the Rim has given you many survival skills, but you've always kept moving until you one day can find somewhere you can call your own.</description>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Shooting>3</Shooting>
+			<Animals>3</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryBasher</defName>
+        <identifier>PapasBackstoryBasher</identifier>
+        <slot>Adulthood</slot>
+        <title>Basher</title>
+        <titleShort>Basher</titleShort>
+        <description>Your strength has gotten you this far, and you know nothing can withstand your bashing forever, man or mountain.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Mining>4</Mining>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions><ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>ClubForBasher</defName>
+    <label>club</label>
+    <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+        </possessions>
+    </BackstoryDef>
+
+    	<BackstoryDef>
+        <defName>PapasBackstoryBasherA</defName>
+        <identifier>PapasBackstoryBasherA</identifier>
+        <slot>Adulthood</slot>
+        <title>Basher</title>
+        <titleShort>Basher</titleShort>
+        <description>Your strength has gotten you this far, and you know nothing can withstand your bashing forever, man or mountain.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Mining>4</Mining>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions><ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>ClubForBasherA</defName>
+    <label>club</label>
+    <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryBasherB</defName>
+        <identifier>PapasBackstoryBasherB</identifier>
+        <slot>Adulthood</slot>
+        <title>Basher</title>
+        <titleShort>Basher</titleShort>
+        <description>Your strength has gotten you this far, and you know nothing can withstand your bashing forever, man or mountain.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Mining>4</Mining>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions><ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>ClubForBasherB</defName>
+    <label>club</label>
+    <description>A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        B
+        <identifier>PapasBackstorySlinger</identifier>
+        <slot>Adulthood</slot>
+        <title>Slinger</title>
+        <titleShort>Slinger</titleShort>
+        <description>A peice of hide and some rocks are all you need to topple even the mightiest of foes.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions><ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Sling</defName>
+    <label>sling</label>
+    <description>A small pouch in the middle of two lengths of cord. Used to slingshot sharp rocks over medium distance.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Sling</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.2</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_SlingRock</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>18.9</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>sling</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_SlingRock</defName>
+    <label>sling rock</label>
+    <graphicData>
+      <texPath>Things/Projectile/SlingRockThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+		</possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstorySlingerA</defName>
+        <identifier>PapasBackstorySlingerA</identifier>
+        <slot>Adulthood</slot>
+        <title>Slinger</title>
+        <titleShort>Slinger</titleShort>
+        <description>A peice of hide and some rocks are all you need to topple even the mightiest of foes.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions><ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_SlingA</defName>
+    <label>sling</label>
+    <description>A small pouch in the middle of two lengths of cord. Used to slingshot sharp rocks over medium distance.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Sling</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.2</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_SlingRock</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>18.9</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>sling</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_SlingRock</defName>
+    <label>sling rock</label>
+    <graphicData>
+      <texPath>Things/Projectile/SlingRockThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+		</possessions>
+    </BackstoryDef>
+
+        <BackstoryDef>
+        <defName>PapasBackstorySlingerB</defName>
+        <identifier>PapasBackstorySlingerB</identifier>
+        <slot>Adulthood</slot>
+        <title>Slinger</title>
+        <titleShort>Slinger</titleShort>
+        <description>A peice of hide and some rocks are all you need to topple even the mightiest of foes.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions><ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_SlingB</defName>
+    <label>sling</label>
+    <description>A small pouch in the middle of two lengths of cord. Used to slingshot sharp rocks over medium distance.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Sling</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.2</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_SlingRock</defaultProjectile>
+        <warmupTime>1.35</warmupTime>
+        <range>18.9</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>sling</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_SlingRock</defName>
+    <label>sling rock</label>
+    <graphicData>
+      <texPath>Things/Projectile/SlingRockThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+		</possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryFireTender</defName>
+        <identifier>PapasBackstoryFireTender</identifier>
+        <slot>Adulthood</slot>
+        <title>Fire Tender</title>
+        <titleShort>Fire Tender</titleShort>
+        <description>The fire is good. Makes food better,keeps the wilds away, and it must be cherished.</description>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Construction>5</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryFireTendeAr</defName>
+        <identifier>PapasBackstoryFireTenderA</identifier>
+        <slot>Adulthood</slot>
+        <title>Fire Tender</title>
+        <titleShort>Fire Tender</titleShort>
+        <description>The fire is good. Makes food better,keeps the wilds away, and it must be cherished.</description>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Construction>5</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryFireTenderB</defName>
+        <identifier>PapasBackstoryFireTenderB</identifier>
+        <slot>Adulthood</slot>
+        <title>Fire Tender</title>
+        <titleShort>Fire Tender</titleShort>
+        <description>The fire is good. Makes food better,keeps the wilds away, and it must be cherished.</description>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Construction>5</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryCaveDweller</defName>
+        <identifier>PapasBackstoryCaveDweller</identifier>
+        <slot>Adulthood</slot>
+        <title>Cave Dweller</title>
+        <titleShort>Cave Dweller</titleShort>
+        <description>Finding a cave to call your own is a wonderful thing, keeps the rain off you and can make use of all the nearby rocks and stones for crafting and mining.</description>
+        <skillGains>
+            <Mining>6</Mining>
+            <Artistic>4</Artistic>
+			<Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryCaveDwellerA</defName>
+        <identifier>PapasBackstoryCaveDwellerA</identifier>
+        <slot>Adulthood</slot>
+        <title>Cave Dweller</title>
+        <titleShort>Cave Dweller</titleShort>
+        <description>Finding a cave to call your own is a wonderful thing, keeps the rain off you and can make use of all the nearby rocks and stones for crafting and mining.</description>
+        <skillGains>
+            <Mining>6</Mining>
+            <Artistic>4</Artistic>
+			<Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryCaveDwellerB</defName>
+        <identifier>PapasBackstoryCaveDwellerB</identifier>
+        <slot>Adulthood</slot>
+        <title>Cave Dweller</title>
+        <titleShort>Cave Dweller</titleShort>
+        <description>Finding a cave to call your own is a wonderful thing, keeps the rain off you and can make use of all the nearby rocks and stones for crafting and mining.</description>
+        <skillGains>
+            <Mining>6</Mining>
+            <Artistic>4</Artistic>
+			<Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstorySeeker</defName>
+        <identifier>PapasBackstorySeeker</identifier>
+        <slot>Adulthood</slot>
+        <title>Seeker</title>
+        <titleShort>Seeker</titleShort>
+        <description>Facinated by the modern world around you, you stive to become just like them.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>6</Intellectual>
+			<Construction>3</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstorySeekerA</defName>
+        <identifier>PapasBackstorySeekerA</identifier>
+        <slot>Adulthood</slot>
+        <title>Seeker</title>
+        <titleShort>Seeker</titleShort>
+        <description>Facinated by the modern world around you, you stive to become just like them.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>6</Intellectual>
+			<Construction>3</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstorySeekerB</defName>
+        <identifier>PapasBackstorySeekerB</identifier>
+        <slot>Adulthood</slot>
+        <title>Seeker</title>
+        <titleShort>Seeker</titleShort>
+        <description>Facinated by the modern world around you, you stive to become just like them.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>6</Intellectual>
+			<Construction>3</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryOneWithNature</defName>
+        <identifier>PapasBackstoryOneWithNature</identifier>
+        <slot>Adulthood</slot>
+        <title>One with Nature</title>
+        <titleShort>One with Nature</titleShort>
+        <description>Born in the wilds you thrived amongst the trees and shrubs, learning from them and the great Anima mother.</description>
+        <skillGains>
+            <Plants>7</Plants>
+            <Medicine>4</Medicine>
+			<Construction>2</Construction>
+        </skillGains>
+		<forcedTraits>Psychicallyhypersensitive</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryOneWithNatureA</defName>
+        <identifier>PapasBackstoryOneWithNatureA</identifier>
+        <slot>Adulthood</slot>
+        <title>One with Nature</title>
+        <titleShort>One with Nature</titleShort>
+        <description>Born in the wilds you thrived amongst the trees and shrubs, learning from them and the great Anima mother.</description>
+        <skillGains>
+            <Plants>7</Plants>
+            <Medicine>4</Medicine>
+			<Construction>2</Construction>
+        </skillGains>
+		<forcedTraits>Psychicallyhypersensitive</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+        <BackstoryDef>
+        <defName>PapasBackstoryOneWithNatureB</defName>
+        <identifier>PapasBackstoryOneWithNatureB</identifier>
+        <slot>Adulthood</slot>
+        <title>One with Nature</title>
+        <titleShort>One with Nature</titleShort>
+        <description>Born in the wilds you thrived amongst the trees and shrubs, learning from them and the great Anima mother.</description>
+        <skillGains>
+            <Plants>7</Plants>
+            <Medicine>4</Medicine>
+			<Construction>2</Construction>
+        </skillGains>
+		<forcedTraits>Psychicallyhypersensitive</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryAnimalLife</defName>
+        <identifier>PapasBackstoryAnimalLife</identifier>
+        <slot>Adulthood</slot>
+        <title>Animal Life</title>
+        <titleShort>Animal Life</titleShort>
+        <description>Living with the herds of Muffalo or a pack of wolves feels right, even in fights you seem more drawn to the herds than modern life.</description>
+        <skillGains>
+            <Animals>7</Animals>
+            <Social>5</Social>
+        </skillGains>
+		<forcedTraits>AnimalLover</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryAnimalLifeA</defName>
+        <identifier>PapasBackstoryAnimalLifeA</identifier>
+        <slot>Adulthood</slot>
+        <title>Animal Life</title>
+        <titleShort>Animal Life</titleShort>
+        <description>Living with the herds of Muffalo or a pack of wolves feels right, even in fights you seem more drawn to the herds than modern life.</description>
+        <skillGains>
+            <Animals>7</Animals>
+            <Social>5</Social>
+        </skillGains>
+		<forcedTraits>AnimalLover</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+<BackstoryDef>
+        <defName>PapasBackstoryAnimalLifeB</defName>
+        <identifier>PapasBackstoryAnimalLifeB</identifier>
+        <slot>Adulthood</slot>
+        <title>Animal Life</title>
+        <titleShort>Animal Life</titleShort>
+        <description>Living with the herds of Muffalo or a pack of wolves feels right, even in fights you seem more drawn to the herds than modern life.</description>
+        <skillGains>
+            <Animals>7</Animals>
+            <Social>5</Social>
+        </skillGains>
+		<forcedTraits>AnimalLover</forcedTraits>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+	<BackstoryDef>
+        <defName>PapasBackstoryEffigyMaker</defName>
+        <identifier>PapasBackstoryEffigyMaker</identifier>
+        <slot>Adulthood</slot>
+        <title>Effigy Maker</title>
+        <titleShort>Effigy Maker</titleShort>
+        <description>Making little trinkets and effigies for what you worship and see seems to give you hope and even luck as you've managed to survive this far.</description>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Crafting>6</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryEffigyMakerA</defName>
+        <identifier>PapasBackstoryEffigyMakerA</identifier>
+        <slot>Adulthood</slot>
+        <title>Effigy Maker</title>
+        <titleShort>Effigy Maker</titleShort>
+        <description>Making little trinkets and effigies for what you worship and see seems to give you hope and even luck as you've managed to survive this far.</description>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Crafting>6</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryEffigyMakerB</defName>
+        <identifier>PapasBackstoryEffigyMakerB</identifier>
+        <slot>Adulthood</slot>
+        <title>Effigy Maker</title>
+        <titleShort>Effigy Maker</titleShort>
+        <description>Making little trinkets and effigies for what you worship and see seems to give you hope and even luck as you've managed to survive this far.</description>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Crafting>6</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+	
+	<BackstoryDef>
+        <defName>PapasBackstoryEscaped</defName>
+        <identifier>PapasBackstoryEscaped</identifier>
+        <slot>Adulthood</slot>
+        <title>Escaped</title>
+        <titleShort>Escaped</titleShort>
+        <description>Captured for your muscle and simple mind, you waited for the right moment to strike. With a swift blow to your captor you managed to escape and hopefully will use what you learned to never be captured again.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Intellectual>3</Intellectual>
+			<Construction>5<.Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryEscapedA</defName>
+        <identifier>PapasBackstoryEscapedA</identifier>
+        <slot>Adulthood</slot>
+        <title>Escaped</title>
+        <titleShort>Escaped</titleShort>
+        <description>Captured for your muscle and simple mind, you waited for the right moment to strike. With a swift blow to your captor you managed to escape and hopefully will use what you learned to never be captured again.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Intellectual>3</Intellectual>
+			<Construction>5<.Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>PapasBackstoryEscapedB</defName>
+        <identifier>PapasBackstoryEscapedB</identifier>
+        <slot>Adulthood</slot>
+        <title>Escaped</title>
+        <titleShort>Escaped</titleShort>
+        <description>Captured for your muscle and simple mind, you waited for the right moment to strike. With a swift blow to your captor you managed to escape and hopefully will use what you learned to never be captured again.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Intellectual>3</Intellectual>
+			<Construction>5<.Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+</Defs>
